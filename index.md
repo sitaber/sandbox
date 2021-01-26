@@ -1,10 +1,19 @@
-## Welcome to GitHub Pages
-<audio controls="controls" src="https://sitaber.github.io/sandbox/000002.mp3">
+## Welcome to the Sandbox
+
+This page is a sandbox for playing with Markdown and Github pages using the basic Jekyll themes.
+
+
+**AUDIO**
+
+We can simply use HTML tages to add an audio player for the mp3 in the repository. 
+```
+<audio controls="controls" src="https://sitaber.github.io/sandbox/000002.mp3"> 
     Your browser does not support the HTML5 Audio element.
-</audio>
+    </audio>
+```
+And we get...
 
-
-You can use the [editor on GitHub](https://github.com/sitaber/sandbox/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+1. <audio controls="controls" src="https://sitaber.github.io/sandbox/000002.mp3"> Your browser does not support the HTML5 Audio element. </audio>
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -35,6 +44,9 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sitaber/sandbox/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+And we can [add remote themes](https://docs.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll) and find help with other aspects
+
 
 ### Support or Contact
 
